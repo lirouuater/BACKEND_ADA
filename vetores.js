@@ -13,4 +13,4 @@ console.log(alunos[3]);
 
 console.log(numerosPrimos);
    }
-   //escopo de bloco {...} ou {}
+   //escopo de bloco {...} ou {git remote add origin https://github.com/lirouuater/BACKEND_ADA.git}
