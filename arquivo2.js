@@ -27,5 +27,6 @@ console.log({restoDaDivisao});
 //const soma = null + n2; // null representa um valor vazio, vulgo 0 
 //console.log(soma);
 
-//const soma = "ab" + n2; //coerção ou conversão implícita
+//const soma = "ab" + n2; //coerção ou conversão implícita 
+
 //console.log(soma);
