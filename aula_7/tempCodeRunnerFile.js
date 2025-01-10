@@ -1,1 +1,1 @@
-process
+console.log(`Arquivo escrito com sucesso no caminho ${fileOutPath}`);
