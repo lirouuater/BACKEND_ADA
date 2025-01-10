@@ -2,6 +2,10 @@
 /* eslint-disable no-undef */
 const path = require('node:path');
 const fs = require('node:fs');
+const dotenv = require("dotenv");
+
+dotenv.config()
+console.log(process.env.NODE_ENV);
 
 const filePath = path.join(process.cwd(), "aula_7", "texto.txt");
 const fileOutPath = path.join(process.cwd(), "aula_7", "texto-com-linhas.txt");
@@ -30,6 +34,7 @@ fs.readFile(filePath, {}, (erro, dados) => {
             return;
         }
         
+        console.log(`Arquivo salvo no bucket ${process.env.S3_BUCKET}`);
         console.timeEnd("manipular arquivos")
     });
 
